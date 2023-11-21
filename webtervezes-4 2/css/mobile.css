@@ -1,0 +1,91 @@
+@media only screen and (max-width: 800px) {
+    main {
+        background-color: rgb(173, 155, 143);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .form-container {
+        margin: 0;
+        width: 100%;
+    }
+
+    nav li {
+        float: none;
+        width: 100%;
+    }
+
+    .hirlevel{
+        margin:0;
+    }
+    .socialmedia{
+        margin: 0;
+    }
+
+    img.cegalapitas{
+        margin:0;
+        float: none;
+        width: 100%;
+    }
+    .hogyan_indult{
+        margin:0;
+        float: none;
+        width: 100%;
+    }
+    .lepesttartunk{
+        margin:0;
+        float: none;
+        width: 100%;
+    }
+    .lepestartas{
+        margin:0;
+        float: none;
+        width: 100%;
+    }
+    .ugyfelpartnerseg{
+        margin:0;
+        float: none;
+        width: 100%;
+    }
+    .ugyfelpartner{
+        margin:0;
+        float: none;
+        width: 100%;
+    }
+    #contact-form{
+        display: contents;
+    }
+
+    .form-container-contact{
+        margin:0;
+        width: 100%;
+    }
+
+    .contact-form{
+        width: 100%;
+        margin:0;
+    }
+
+    .employee{
+        margin:0;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .forum1{
+        width: 100%;
+        margin:0;
+        padding:0;
+    }
+
+    .forum{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+}

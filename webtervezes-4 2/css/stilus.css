@@ -1,0 +1,598 @@
+/* === Menüsor ===*/
+#menubar{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+nav li:hover{
+    background-color: rgb(93, 93, 104);
+    transition: background-color 0.5s;
+}
+
+li.active{background-color: rgb(93, 93, 104);}
+.active {
+    background-color: rgb(93, 93, 104);
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    float: left;
+    width:14.281%;
+    text-align: center;
+    background-color:rgb(143, 128, 119);
+    padding: 10px 0px;
+}
+/* === Menüsor vége ===*/
+
+a:link{
+    color: rgb(93, 93, 104);
+}
+
+.regist{
+    color: rgb(93, 93, 104);
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    
+}
+
+.required-label::after {
+    content: "*";
+    color: red;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:rgb(169, 179, 182);
+    color:white;
+}
+form > input:not([type="file"]), form > select, form > textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+form > div {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.form-container {
+    padding:30px;
+    margin:30px auto;
+    box-sizing: border-box;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color:black;
+    border-radius: 20px;
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(143, 128, 119);
+    visibility: hidden;
+}
+
+.form-container.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+
+.checkbox-container > * {
+    display: block;
+    margin-bottom: 10px;
+}
+
+img.profile{
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+main{
+    background-color:rgb(173, 155, 143);
+    margin:55px;
+    padding:10px;
+}
+
+uname{
+    text-align: left;
+}
+input[type="submit"], input[type="reset"] {
+    border: none;                       
+    color: white;
+    font-size: 100%;
+    
+}
+
+input[type="submit"] {
+    background-color: rgb(93, 93, 104);
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(143, 128, 119);
+    transition: background-color 0.5s;
+}
+
+input[type="reset"] {
+    margin-top: 10px !important;
+    background-color: rgb(93, 93, 104);
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="reset"]:hover{
+    background-color: rgb(143, 128, 119);
+    transition: background-color 0.5s;
+}
+
+main h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(143, 128, 119);
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  #container{
+      visibility: hidden;
+  }
+
+  #container.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+    color:black;
+  }
+
+  .container,
+  .contact-form{
+      width: 1100px;
+      margin: 30px auto;
+      padding: 20px 0;
+  }
+
+  .container{
+      min-height: 800px;
+  }
+
+  #contact-form{
+    display: none;
+  }
+
+  .contact-table td:nth-child(1) {  
+    text-align: left;
+  }
+  .contact-table td:nth-child(2) {  
+    text-align: right;
+  }
+main .container h2{
+      margin-bottom: 50px;
+  }
+  
+  .contact-form h2{
+      padding-bottom: 50px;
+  }
+
+  .form-container-contact {
+    padding: 30px;
+    border-radius: 20px;
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(143, 128, 119);
+    background-color: rgba(255, 255, 255, 0.8);
+    color:black;
+    margin: 20px auto;
+    box-sizing: border-box;
+    width: 600px;
+}
+
+#scroll-to-top {
+    position: absolute;
+    top: 90vh;
+    bottom: 40px;
+    right: 40px;
+    z-index: 10;
+    display: none;
+}
+
+#scroll-to-top button {
+    position:fixed;
+    right: 30px;
+    top: 90vh;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 2px 3px 6px black;
+    color: rgb(93, 93, 104);
+    font-size: 110%;
+    cursor: pointer;
+}
+
+.dogpicture{
+    width: 100%;
+}
+
+.employee{
+    border: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:rgb(93, 93, 104);
+    margin-left:300px;
+    margin-right:300px;
+    margin-bottom:15px;
+    color:rgb(93, 93, 104);
+    background-color: rgba(255, 255, 255, 0.8);
+    visibility: hidden;
+}
+
+.employee:nth-of-type(1),
+.employee:nth-of-type(2){
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+.employee.visible{
+    animation: 4s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+
+.employee01{
+    margin-top: 20px;
+    border-radius: 200px;
+}
+.employee01:hover,
+.employee02:hover,
+.employee03:hover{
+    width: 250px;
+    transition: 0.5s;
+}
+
+.employee02{
+    margin-top: 20px;
+    border-radius: 200px;
+}
+
+.employee03{
+    margin-top: 20px;
+    border-radius: 200px;
+}
+
+.nev{
+    font-size: 20px;
+}
+
+
+.hogyan_indult{
+    margin-top:65px;
+    margin-left:20px;
+    margin-right:560px;
+    margin-bottom: 100px;
+    border:2px;
+    border-style: solid;
+    border-color:rgb(93, 93, 104);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color:rgb(93, 93, 104);
+    visibility: hidden;
+}
+
+.hogyan_indult.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+img.cegalapitas{
+    margin-top:20px;
+    margin-right: 20px;
+    float: right;
+    border:2px;
+    border-style: solid;
+    border-color:rgb(93, 93, 104);
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+img.cegalapitas.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+.lepestartas{
+    margin-left:560px;
+    margin-right:20px;
+    margin-bottom: 100px;
+    margin-top: 230px;
+    border:2px;
+    border-style: solid;
+    border-color:rgb(93, 93, 104);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color:rgb(93, 93, 104);
+    visibility: hidden;
+}
+
+.lepestartas.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+.lepesttartunk{
+    margin-left: 20px;
+    margin-top:100px;
+    float:left;
+    border:2px;
+    border-style: solid;
+    border-color:rgb(93, 93, 104);
+    border-radius: 20px;
+    text-align: left;
+    visibility: hidden;
+}
+
+.lepesttartunk.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+.ugyfelpartner{
+    margin-left:20px;
+    margin-right:560px;
+    margin-top:180px;
+    margin-bottom: 20px;
+    border:2px;
+    border-style: solid;
+    border-color:rgb(93, 93, 104);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color:rgb(93, 93, 104);
+    visibility: hidden;
+}
+.ugyfelpartner.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+.ugyfelpartnerseg{
+    float:right;
+    border:2px;
+    border-style: solid;
+    border-color:rgb(93, 93, 104);
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top:15px;
+    visibility: hidden;
+}
+.ugyfelpartnerseg.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+.rolunkcucc{
+    padding-top: 10px;
+    padding-bottom: 75px;
+}
+
+.hogyan_indult:nth-of-type(){
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+.hirlevel{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(93, 93, 104);
+    background-color: rgba(255, 255, 255, 0.8);
+    color:rgb(93, 93, 104);
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+.hirlevel.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+.newsletter-rounded{
+    margin-left:80px;
+    margin-right:80px;
+}
+
+.socialmedia{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(93, 93, 104);
+    background-color: rgba(255, 255, 255, 0.8);
+    color:rgb(93, 93, 104);
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+.socialmedia h1{
+    margin-top: 10px;
+}
+
+.hirlevel h1{
+    margin-top:10px;
+}
+
+.kezdolap{
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+.socialmedia.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+.fa {
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 50px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-radius: 300px;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+  }
+   
+.fa-facebook {
+    background: rgb(93, 93, 104);
+    color: white;
+  }
+  
+.fa-reddit {
+    background: rgb(93, 93, 104);
+    color: white;
+  }
+ 
+.fa-snapchat{
+      background-color: rgb(93, 93, 104);
+      color: white;
+  }
+
+.fa-youtube{
+      background-color: rgb(93, 93, 104);
+      color:white;
+  }
+
+.forum{
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(93, 93, 104);
+    background-color: rgba(255, 255, 255, 0.8);
+    color:rgb(93, 93, 104);
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+.forum.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+.kereso-table td:nth-child(1) {  
+    text-align: left;
+  }
+  .kereso-table td:nth-child(2) {  
+    text-align: right;
+  }
+
+.kereso-table{
+    margin: auto;
+}
+
+input[type="button"] {
+    background-color: rgb(93, 93, 104);
+    border-radius: 10px;
+    font-size: 25px;
+    color:rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+input[type="button"]:hover{
+    background-color: rgb(143, 128, 119);
+    transition: background-color 0.5s;
+}
+.temak-table{
+    width: 99%;
+    border-collapse: collapse;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+.temak-table th{
+    border: 1px solid black;
+}
+.temak-table td{
+    border: 1px solid black;
+}
+
+.forum1{
+    margin: 20px;
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(93, 93, 104);
+    background-color: rgba(255, 255, 255, 0.8);
+    color:rgb(93, 93, 104);
+    padding: 10px;
+    visibility: hidden;
+}
+.forum1.visible{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+}
+.forum-adatok{
+    width: 10%;
+}
+.forum-tartalom{
+    width: 90%;
+    vertical-align: top;
+}
+.forum-ido{
+    float: right;
+}
+.forum-üzenet{
+    
+    float: left;
+    padding: 5px;
+}
+.forum-tabla1{
+    width: 60%;
+}
+.forum-tabla-nev{
+    padding-left: 5px;
+    text-align: left;
+}
